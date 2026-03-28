@@ -1,0 +1,42 @@
+{
+  "name": "drugfyi-embed",
+  "version": "1.0.0",
+  "description": "Embed DrugFYI widgets — drug compounds, molecular formulas, pharmacology. 4,009 drugs. Zero dependencies, Shadow DOM, 4 themes. Medical disclaimer included.",
+  "main": "dist/embed.min.js",
+  "module": "dist/embed.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "drug",
+    "molecule",
+    "pharmacology",
+    "molecular-formula",
+    "compound",
+    "fda",
+    "embed",
+    "widget",
+    "drugfyi",
+    "drugfyi.com",
+    "shadow-dom",
+    "zero-dependencies",
+    "fyipedia",
+    "healthfyi"
+  ],
+  "homepage": "https://widget.drugfyi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/drugfyi-embed"
+  },
+  "bugs": {
+    "url": "https://github.com/fyipedia/drugfyi-embed/issues"
+  },
+  "license": "MIT",
+  "author": "FYIPedia <dev@fyipedia.com>",
+  "publishConfig": {
+    "access": "public"
+  }
+}
