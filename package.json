@@ -1,6 +1,6 @@
 {
   "name": "drugfyi-embed",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Embed DrugFYI widgets — drug compounds, molecular formulas, pharmacology. 4,009 drugs. Zero dependencies, Shadow DOM, 4 themes. Medical disclaimer included.",
   "main": "dist/embed.min.js",
   "module": "dist/embed.esm.js",
