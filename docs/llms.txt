@@ -1,21 +1,50 @@
 # DrugFYI Embed Widget
 
-> Embeddable DrugFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Drug interactions, pharmacology. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/drugfyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/drugfyi-embed@1/dist/embed.min.js"></script>
+<div data-drugfyi="entity" data-slug="example"></div>
+```
+
+## Available Widget Types (6)
+
+- entity: `data-drugfyi="entity"`
+- glossary: `data-drugfyi="glossary"`
+- guide: `data-drugfyi="guide"`
+- compare: `data-drugfyi="compare"`
+- search: `data-drugfyi="search"`
+- faq: `data-drugfyi="faq"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-drugfyi="entity" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/drugfyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://drugfyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://drugfyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://drugfyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://drugfyi.com
 - Widget docs: https://widget.drugfyi.com
-- npm: https://www.npmjs.com/package/drugfyi-embed
+- API documentation: https://drugfyi.com/developers/
+- npm package: https://www.npmjs.com/package/drugfyi-embed
 - GitHub: https://github.com/fyipedia/drugfyi-embed
-- API: https://drugfyi.com/developers/
 
-## Health FYI Widget Family
+## Health FYI Widget Network
 
 - [AnatomyFYI Widget](https://widget.anatomyfyi.com)
 - [PillFYI Widget](https://widget.pillfyi.com)
