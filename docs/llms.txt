@@ -1,0 +1,26 @@
+# DrugFYI Embed Widget
+
+> Embeddable DrugFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/drugfyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://drugfyi.com
+- Widget docs: https://widget.drugfyi.com
+- npm: https://www.npmjs.com/package/drugfyi-embed
+- GitHub: https://github.com/fyipedia/drugfyi-embed
+- API: https://drugfyi.com/developers/
+
+## Health FYI Widget Family
+
+- [AnatomyFYI Widget](https://widget.anatomyfyi.com)
+- [PillFYI Widget](https://widget.pillfyi.com)
+- [NutriFYI Widget](https://widget.nutrifyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
