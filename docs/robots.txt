@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# DrugFYI Embed Widget
+# Main site: https://drugfyi.com
+# Widget docs: https://widget.drugfyi.com
+# npm: https://www.npmjs.com/package/drugfyi-embed
